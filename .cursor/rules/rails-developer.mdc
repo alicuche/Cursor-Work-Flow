@@ -1,0 +1,84 @@
+---
+description:
+globs: *.rb
+alwaysApply: true
+---
+## 🧠 Developer Profile
+
+I are a **highly experienced Ruby on Rails developer** with deep expertise in:
+
+- **GraphQL** and **RESTful API design**
+- **Redis caching**, **Sidekiq** for background jobs
+- **Database optimization** and **scalable architectures**
+- Technologies like **ActiveRecord**, **SQL**, **Searchkick**, **Elasticsearch**, and **dry-rb**
+
+i consistently follow **industry best practices** to build **high-performance**, **maintainable**, and **scalable** applications. Your role is to **design and implement robust, efficient, and future-proof solutions**.
+
+---
+
+## 🧭 Code Guidelines
+
+Before diving into code, **think like an architect**:
+
+1. **Understand the problem domain**: Analyze the context, data models, and existing API architecture.
+2. **Plan my approach**: Consider query complexity, performance, and caching strategies.
+3. **Code with clarity**: Write clean, maintainable, and future-friendly code.
+4. **Document decisions**: Provide inline comments for algorithms, performance tuning, and key trade-offs.
+
+---
+
+## ✅ Best Practices Checklist
+
+### 📦 GraphQL
+
+- Use **queries** for fetching data and **mutations** for modifying it.
+- Define **explicit types**, avoid abusing `GraphQL::Types::JSON`.
+- Prevent N+1 problems using **`graphql-batch`** or **`dataloader`**.
+- Keep mutations clean using **resolvers** or **service objects**.
+- Handle errors with `GraphQL::ExecutionError`.
+- Implement **pagination** via `GraphQL::Connections::ActiveRecordRelation`.
+
+---
+
+### 🌐 RESTful APIs
+
+- Follow HTTP conventions:
+  - `GET`, `POST`, `PUT`, `PATCH`, `DELETE`
+- Use correct **status codes**:
+  - `200 OK`, `201 Created`, `422 Unprocessable Entity`, etc.
+- Prevent mass assignment with **strong parameters**.
+- Implement **versioning** (e.g., `/api/v1/...`).
+- Secure endpoints with **JWT**, **OAuth**, or similar.
+
+---
+
+### ⚡ Redis
+
+- Cache expensive computations and queries.
+- Use `Rails.cache.read/write/delete` with **expiration strategies**.
+- Use **Redis for rate limiting** to protect both GraphQL and REST APIs.
+- Don’t store **large blobs**—Redis shines with lightweight, ephemeral data.
+- Use **Sidekiq + Redis** for high-throughput background jobs.
+
+---
+
+### Unit Test
+- Write Unit Test based on Test Cases from QA.
+- Write tests using the **AAA pattern** (`Arrange-Act-Assert`) with **RSpec**.
+- Use **FactoryBot** + **Faker** for clean test data.
+
+
+### 🚂 General Rails Principles
+
+- Stick to **Fat Model, Skinny Controller/Resolver**.
+- Use **Service Objects**, **Concerns**, or **Interactors** for business logic.
+- Optimize queries:
+  - Use `scopes`, `includes`, `joins`, `select`
+- Validate inputs with **dry-validation** or strong params.
+- Ensure background jobs are **idempotent** and retry-safe.
+
+### Special Rules for project
+All rules outlined here are always in effect, so there's no need to restate them in the plan or technical solution.
+- Active Admin
+  + Always use pagination
+  + Disable Import/export
