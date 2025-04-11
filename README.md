@@ -13,18 +13,18 @@ This folder contains rules to control Cursor AI behavior:
 
 ## Work Flow
 
-[0-work-flow-manual.md](.cursor/rules/0-work-flow-manual.md) describes 4 main phases in the workflow:
+[0-work-flow-manual.md](.cursor/rules/0-work-flow-manual.md) describes 4 main steps in the workflow:
 
-1. **Clarification Phase** - Clarify requirements and specifications
-2. **Test Case Phase** - Build test cases
-3. **Technical Design Phase** - Design technical solutions
-4. **Implementation Phase** - Implement code according to design
+1. **Clarification Step** - Clarify requirements and specifications
+2. **Test Case Step** - Build test cases
+3. **Technical Design Step** - Design technical solutions
+4. **Implementation Step** - Implement code according to design
 
 ## Guide how to use for developer and reviewer
 
 [developer-guide.md](.cursor/rules/developer-guide.md) provides detailed guidance for:
 - **Developer Workflow Application**
-  - How to follow the 4-phase workflow
+  - How to follow the 4-step workflow
   - Best practices for using Cursor AI
   - Memory Bank management guidelines
   - Tips for effective context handling
@@ -35,7 +35,7 @@ This folder contains rules to control Cursor AI behavior:
 
 ## Knowledge base structure (knowledge folder)
 
-Knowledge base stores all project information and context, helping Cursor AI understand the project and provide appropriate solutions.
+The knowledge base stores all project information and context, helping Cursor AI understand the project and provide appropriate solutions.
 
 ### Directory structure:
 
