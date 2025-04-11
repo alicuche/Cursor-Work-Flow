@@ -6,14 +6,14 @@ This repository provides a framework for controlling Cursor AI and managing work
 
 This folder contains rules to control Cursor AI behavior:
 
-- [1-clear-spec--agent](./cursor/rules/1-clear-spec--agent.md) - Rule for QA Lead and Backend Senior Developer to clarify specifications
-- [2-test-case--agent](./cursor/rules/2-test-case--agent.md) - Rule for writing test cases
-- [3-tech-lead--agent](./cursor/rules/3-tech-lead--agent.md) - Rule for Technical Lead to design solutions
-- [4-memory-bank--agent](./cursor/rules/4-memory-bank--agent.md) - Rule for Memory Bank management
+- [1-clear-spec--agent](.cursor/rules/1-clear-spec--agent.mdc) - Rule for QA Lead and Backend Senior Developer to clarify specifications
+- [2-test-case--agent](.cursor/rules/2-test-case--agent.mdc) - Rule for writing test cases
+- [3-tech-lead--agent](.cursor/rules/3-tech-lead--agent.mdc) - Rule for Technical Lead to design solutions
+- [4-memory-bank--agent](.cursor/rules/4-memory-bank--agent.mdc) - Rule for Memory Bank management
 
 ## Work Flow
 
-[0-work-flow-manual.md](./cursor/rules/0-work-flow-manual.md) describes 4 main phases in the workflow:
+[0-work-flow-manual.md](.cursor/rules/0-work-flow-manual.md) describes 4 main phases in the workflow:
 
 1. **Clarification Phase** - Clarify requirements and specifications
 2. **Test Case Phase** - Build test cases
@@ -22,7 +22,7 @@ This folder contains rules to control Cursor AI behavior:
 
 ## Guide how to use for developer and reviewer
 
-[developer-guide.md](./cursor/rules/developer-guide.md) provides detailed guidance for:
+[developer-guide.md](.cursor/rules/developer-guide.md) provides detailed guidance for:
 - **Developer Workflow Application**
   - How to follow the 4-phase workflow
   - Best practices for using Cursor AI
